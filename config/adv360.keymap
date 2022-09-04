@@ -22,22 +22,18 @@
             label = "macro_hyper";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp RGUI &kp RCTRL &kp RALT &kp RSHFT>,
+                <&macro_press &kp RGUI &kp RCTRL &kp RALT &kp RSHFT>,
                 <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp RGUI &kp RCTRL &kp RALT &kp RSHFT>;
+                <&macro_release &kp RGUI &kp RCTRL &kp RALT &kp RSHFT>;
         };
         macro_rcag: macro_rcag {
             compatible = "zmk,behavior-macro";
             label = "macro_rcag";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp RGUI &kp RCTRL &kp RALT>,
+                <&macro_press &kp RGUI &kp RCTRL &kp RALT>,
                 <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp RGUI &kp RCTRL &kp RALT>;
+                <&macro_release &kp RGUI &kp RCTRL &kp RALT>;
         };
     };
 
