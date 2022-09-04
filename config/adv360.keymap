@@ -16,27 +16,6 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
-    macros {
-        macro_hyper: macro_hyper {
-            compatible = "zmk,behavior-macro";
-            label = "macro_hyper";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press &kp RGUI &kp RCTRL &kp RALT &kp RSHFT>,
-                <&macro_pause_for_release>,
-                <&macro_release &kp RGUI &kp RCTRL &kp RALT &kp RSHFT>;
-        };
-        macro_rcag: macro_rcag {
-            compatible = "zmk,behavior-macro";
-            label = "macro_rcag";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press &kp RGUI &kp RCTRL &kp RALT>,
-                <&macro_pause_for_release>,
-                <&macro_release &kp RGUI &kp RCTRL &kp RALT>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -44,8 +23,8 @@
             bindings = <
  &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4    &kp N5     &tog 1      &mo 3        &kp N6     &kp N7     &kp N8      &kp N9         &kp N0  &kp MINUS
    &kp TAB      &kp Q     &kp W     &kp F      &kp P     &kp B      &none      &none         &kp J      &kp L      &kp U       &kp Y       &kp SEMI   &kp BSLH
- &lt 4 ESC      &kp A     &kp R     &kp S      &kp T     &kp G      &none   &kp LALT   &macro_rcag                        &kp DELETE  &kp BACKSPACE      &none     &kp M   &kp N      &kp E    &kp I     &kp O    &kp SQT
- &kp LSHFT      &kp Z     &kp X     &kp C      &kp D     &kp V      &none      &none  &macro_hyper      &none      &none   &kp PG_UP          &none      &none     &kp K   &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+ &lt 4 ESC      &kp A     &kp R     &kp S      &kp T     &kp G      &none   &kp LALT   &kp RC(RA(RGUI))                        &kp DELETE  &kp BACKSPACE      &none     &kp M   &kp N      &kp E    &kp I     &kp O    &kp SQT
+ &kp LSHFT      &kp Z     &kp X     &kp C      &kp D     &kp V      &none      &none  &kp RS(RC(RA(RGUI)))      &none      &none   &kp PG_UP          &none      &none     &kp K   &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
      &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT  &kp LCMD  &kp LCTRL  &kp SPACE     &kp PG_DN  &kp ENTER  &kp SPACE    &kp DOWN         &kp UP   &kp LBKT  &kp RBKT   &mo 2
             >;
         };
