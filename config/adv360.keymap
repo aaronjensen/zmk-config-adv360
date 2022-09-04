@@ -25,7 +25,7 @@
    &kp TAB      &kp Q     &kp W     &kp F      &kp P     &kp B      &none      &none         &kp J      &kp L      &kp U       &kp Y       &kp SEMI   &kp BSLH
  &lt 4 ESC      &kp A     &kp R     &kp S      &kp T     &kp G      &none   &kp LALT   &kp RC(RA(RGUI))                        &kp DELETE  &kp BACKSPACE      &none     &kp M   &kp N      &kp E    &kp I     &kp O    &kp SQT
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp D     &kp V      &none      &none  &kp RS(RC(RA(RGUI)))      &none      &none   &kp PG_UP          &none      &none     &kp K   &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT  &kp LCMD  &kp LCTRL  &kp SPACE     &kp PG_DN  &kp ENTER  &kp SPACE    &kp DOWN         &kp UP   &kp LBKT  &kp RBKT   &mo 2
+     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT  &kp LGUI  &kp LCTRL  &kp SPACE     &kp PG_DN  &kp ENTER  &kp SPACE    &kp DOWN         &kp UP   &kp LBKT  &kp RBKT   &mo 2
             >;
         };
 
