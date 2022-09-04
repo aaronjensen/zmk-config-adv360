@@ -1,23 +1,3 @@
-  macro_hyper: macro_hyper {
-    label = "macro_hyper";
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings
-      = <&macro_press &kp LSHFT &kp LCTRL &kp LALT &kp LCMD>
-      , <&macro_pause_for_release>
-      , <&macro_release &kp LSHFT &kp LCTRL &kp LALT &kp LCMD>
-      ;
-  };
-  macro_lcag: macro_lcag {
-    label = "macro_lcag";
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings
-      = <&macro_press &kp LCTRL &kp LALT &kp LCMD>
-      , <&macro_pause_for_release>
-      , <&macro_release &kp LCTRL &kp LALT &kp LCMD>
-      ;
-  };
   macro_quotes: macro_quotes {
     compatible = "zmk,behavior-macro";
     label = "macro_quotes";
