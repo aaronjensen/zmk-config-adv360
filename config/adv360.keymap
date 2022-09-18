@@ -33,6 +33,26 @@
             >;
         };
 
+        layer_qwerty {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans   &kp Q   &kp W   &kp E   &kp R   &kp T            &trans  &trans   &kp Y   &kp U   &kp I   &kp O   &kp P  &trans
+ &trans   &kp A   &kp S   &kp D   &kp F   &kp G            &trans  &trans  &trans                  &trans  &trans  &trans   &kp H   &kp J   &kp K   &kp L  &kp SEMI  &trans
+ &trans   &kp Z   &kp X   &kp C   &kp V   &kp B             &none   &none  &trans   &none   &none  &trans   &none   &none   &kp N   &kp M  &trans  &trans    &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_symbol {
+            bindings = <
+ &trans  &trans    &trans     &trans     &trans     &trans            &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+ &trans  &trans    &trans     &trans     &trans     &trans            &trans  &trans  &trans  &trans  &kp PLUS  &trans  &trans  &trans
+ &trans  &trans  &kp LBKT   &kp LBRC   &kp LPAR  &kp EQUAL            &trans  &trans  &trans                    &trans  &trans  &trans  &kp MINUS  &kp RPAR  &kp RBRC  &kp UNDER  &trans  &trans
+ &trans  &trans    &trans  &kp TILDE  &kp GRAVE     &trans            &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &kp PIPE    &kp LT     &kp GT  &trans  &trans
+ &trans  &trans    &trans     &trans     &trans     &trans            &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans    &trans
+            >;
+        };
+
         layer_keypad {
             bindings = <
  &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4    &kp N5             &trans      &mo 3     &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY   &kp MINUS
@@ -60,16 +80,6 @@
   &none         &none         &none         &none         &none            &none            &rgb_ug RGB_MEFS_CMD 5   &bt BT_CLR         &none                                   &bt BT_CLR    &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5   &none   &none   &none   &none   &none   &none
   &none         &none         &none         &none         &none            &none                             &none        &none         &none         &none            &none         &none         &none                   &none   &none   &none   &none   &none   &none   &none
   &none         &none         &none    &bl BL_INC    &bl BL_DEC  &rgb_ug RGB_TOG                        &bl BL_TOG        &none         &none    &bl BL_TOG  &rgb_ug RGB_TOG    &bl BL_INC    &bl BL_DEC                   &none   &none   &none
-            >;
-        };
-
-        layer_symbol {
-            bindings = <
- &trans  &trans    &trans     &trans     &trans     &trans            &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
- &trans  &trans    &trans     &trans     &trans     &trans            &trans  &trans  &trans  &trans  &kp PLUS  &trans  &trans  &trans
- &trans  &trans  &kp LBKT   &kp LBRC   &kp LPAR  &kp EQUAL            &trans  &trans  &trans                    &trans  &trans  &trans  &kp MINUS  &kp RPAR  &kp RBRC  &kp UNDER  &trans  &trans
- &trans  &trans    &trans  &kp TILDE  &kp GRAVE     &trans            &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &kp PIPE    &kp LT     &kp GT  &trans  &trans
- &trans  &trans    &trans     &trans     &trans     &trans            &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans    &trans
             >;
         };
 
