@@ -26,8 +26,8 @@
     ], [
        "&trans", "&trans",   "&trans",    "&trans",    "&trans",    "&trans",           "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans",   "&trans",    "&trans",    "&trans",    "&trans",           "&trans", "&trans", "&trans", "&trans", "&kp PLUS", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&kp LBKT",  "&kp LBRC",  "&kp LPAR", "&kp EQUAL",           "&trans", "&trans", "&trans",                       "&trans", "&trans", "&trans", "&kp MINUS", "&kp RPAR", "&kp RBRC", "&kp UNDER", "&trans", "&trans",
-       "&trans", "&trans",   "&trans", "&kp TILDE", "&kp GRAVE",    "&trans",           "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans", "&trans", "&trans",    "&trans", "&kp PIPE",   "&kp LT",    "&kp GT", "&trans", "&trans",
+       "&trans", "&trans", "&kp LBKT",  "&kp LBRC",  "&kp LPAR", "&kp EQUAL",           "&trans", "&trans", "&trans",                       "&trans", "&trans", "&trans", "&kp MINUS", "&kp RPAR", "&kp RBRC", "&kp RBKT", "&kp UNDER", "&trans",
+       "&trans", "&trans",   "&trans", "&kp TILDE", "&kp GRAVE",    "&trans",           "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans", "&trans", "&trans",    "&trans", "&kp PIPE",   "&kp LT",   "&kp GT",    "&trans", "&trans",
        "&trans", "&trans",   "&trans",    "&trans",    "&trans",    "&trans",           "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans", "&trans", "&trans",    "&trans",   "&trans"
     ], [
        "&kp EQUAL",    "&kp N1",   "&kp N2",   "&kp N3",    "&kp N4",   "&kp N5",            "&trans",     "&mo 3",    "&kp N6", "&kp KP_NUM", "&kp KP_EQUAL", "&kp KP_DIVIDE", "&kp KP_MULTIPLY",  "&kp MINUS",
