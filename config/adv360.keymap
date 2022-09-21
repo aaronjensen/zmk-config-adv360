@@ -52,7 +52,7 @@
             bindings = <
  &trans  &trans    &trans     &trans     &trans     &trans            &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
  &trans  &trans    &trans     &trans     &trans     &trans            &trans  &trans  &trans  &trans  &kp PLUS  &trans  &trans  &trans
- &trans  &trans  &kp LBKT   &kp LBRC   &kp LPAR  &kp EQUAL            &trans  &trans  &trans                    &trans  &trans  &trans  &kp MINUS  &kp RPAR  &kp RBRC  &kp RBKT  &kp UNDER  &trans
+ &trans  &trans    &macro_lbkt &macro_lbrc &macro_lpar &kp EQUAL            &trans  &trans  &trans                    &trans  &trans  &trans  &kp MINUS  &macro_rpar  &macro_rbrc &macro_rbkt &kp UNDER  &trans
  &trans  &trans    &trans  &kp TILDE  &kp GRAVE     &trans            &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &kp PIPE    &kp LT    &kp GT     &trans  &trans
  &trans  &trans    &trans     &trans     &trans     &trans            &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans    &trans
             >;
