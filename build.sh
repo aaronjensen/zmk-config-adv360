@@ -2,6 +2,12 @@
 
 set -euo pipefail
 
+export ZEPHYR_TOOLCHAIN_VARIANT=zephyr
+
+echo "Cleaning Previous Build"
+echo "- - -"
+rm -rf build
+
 echo "West Update"
 echo "- - -"
 west update
