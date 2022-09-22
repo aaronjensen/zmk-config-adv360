@@ -5,3 +5,4 @@
 /modules/
 /tools/
 /zephyr-sdk-0.15.0/
+*.uf2
